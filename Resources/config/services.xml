@@ -5,11 +5,11 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="exeu_amazon_ecs.ecs.class">AmazonECS</parameter>
+        <parameter key="uam_amazon_pa.class">AmazonECS</parameter>
     </parameters>
 
     <services>
-        <service id="exeu_amazon_ecs.pa" class="%exeu_amazon_ecs.ecs.class%">
+        <service id="uam_amazon_pa.client" class="%uam_amazon_pa.class%">
             <argument></argument>
             <argument></argument>
             <argument></argument>

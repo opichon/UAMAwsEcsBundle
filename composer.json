@@ -1,23 +1,22 @@
 {
-    "name": "exeu/amazon-ecs-bundle",
+    "name": "uam/amazon-pa-bundle",
     "type": "symfony-bundle",
-    "description": "Exeu Amazon ECS Bundle",
+    "description": "Amazon Product Advertising API Bundle",
     "keywords": ["Amazon", "Bundle", "Advertising", "SOAP", "ECS"],
-    "homepage": "https://github.com/Exeu/ExeuAmazonECSBundle",
-    "license": "Apache-2.0",
+    "homepage": "https://gitweb.unied-asian.com",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Jan Eichhorn",
-            "email": "exeu65@googlemail.com"
+            "name": "Olivier Pichon",
+            "email": "op@united-asian.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
         "exeu/amazon-ecs-php": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Exeu\\AmazonECSBundle": "" }
+        "psr-0": { "UAM\\AmazonPABundle": "" }
     },
-    "target-dir": "Exeu/AmazonECSBundle"
+    "target-dir": "UAM/AmazonPABundle"
 }
