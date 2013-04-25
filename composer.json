@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Amazon Product Advertising API Bundle",
     "keywords": ["Amazon", "Bundle", "Advertising", "SOAP", "ECS"],
-    "homepage": "https://gitweb.unied-asian.com",
+    "homepage": "https://gitweb.united-asian.com",
     "license": "MIT",
     "authors": [
         {
