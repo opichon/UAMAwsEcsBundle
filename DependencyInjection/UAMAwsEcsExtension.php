@@ -1,6 +1,6 @@
 <?php
 
-namespace UAM\AmazonPABundle\DependencyInjection;
+namespace UAM\Aws\EcsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\Loader;
  * The DependencyInjection Extension
  *
  */
-class UAMAmazonPAExtension extends Extension
+class UAMAwsEcsExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -24,7 +24,7 @@ class UAMAmazonPAExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
 
-        $container->getDefinition('exeu_amazon_ecs.pa')
+        $container->getDefinition('uam_aws_ecs')
             ->replaceArgument(0, $config['access_key'])
             ->replaceArgument(1, $config['secret_key'])
             ->replaceArgument(2, $config['country'])

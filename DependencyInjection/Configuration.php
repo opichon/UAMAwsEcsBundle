@@ -1,6 +1,6 @@
 <?php
 
-namespace UAM\AmazonPABundle\DependencyInjection;
+namespace UAM\Aws\EcsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $treeBuilder->root('uam_amazon_pa')
+        $treeBuilder->root('uam_aws_ecs')
             ->children()
                 ->scalarNode('access_key')
                     ->isRequired()

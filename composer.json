@@ -1,8 +1,8 @@
 {
-    "name": "uam/amazon-pa-bundle",
+    "name": "uam/aws-ecs-bundle",
     "type": "symfony-bundle",
     "description": "Amazon Product Advertising API Bundle",
-    "keywords": ["Amazon", "Bundle", "Advertising", "SOAP", "ECS"],
+    "keywords": ["Symfony", "Bundle", "AWS ECommerce Service", "ECS", "Amazon Product Advertising API", "ECS"],
     "homepage": "https://gitweb.united-asian.com",
     "license": "MIT",
     "authors": [
@@ -13,10 +13,10 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "exeu/amazon-ecs-php": "dev-master"
+        "uam/aws-ecs-client": "0.1.*"
     },
     "autoload": {
-        "psr-0": { "UAM\\AmazonPABundle": "" }
+        "psr-0": { "UAM\\Aws\\EcsBundle": "" }
     },
-    "target-dir": "UAM/AmazonPABundle"
+    "target-dir": "UAM/Aws/EcsBundle"
 }
