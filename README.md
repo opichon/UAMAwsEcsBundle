@@ -1,16 +1,16 @@
-UAM Amazon Product Advertising API Bundle
+UAM Aws ECS Bundle
 ===================
 
 ## Installation
 
 ### Symfony 2.1.x
 
-Add the UAMmazonPABundle in your composer.json:
+Add the UAMAwsEcsBundle to your composer.json file:
 
 ```js
 {
     "require": {
-        "uam/amazon-pa-bundle": "dev-master"
+        "uam/aws-ecs-bundle": "dev-master"
     }
 }
 ```
@@ -18,7 +18,7 @@ Add the UAMmazonPABundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update uam/amazon-pa-bundle
+$ php composer.phar update uam/aws-ecs-bundle
 ```
 
 Dont forget to activate the bundle in your AppKernel:
@@ -29,7 +29,7 @@ Dont forget to activate the bundle in your AppKernel:
 // in AppKernel::registerBundles()
 $bundles = array(
     // ...
-    new UAM\AmazonPABundle\UAMAmazonPABundle(),
+    new UAM\Aws\EcsBundle\EcsBundle(),
     // ...
 );
 
