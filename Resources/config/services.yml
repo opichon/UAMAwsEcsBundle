@@ -1,0 +1,7 @@
+services:
+    uam_aws_ecs.service_builder:
+        class: Guzzle\Service\Builder\ServiceBuilder
+        factory_class: UAM\Bundle\AwsEcsBundle\Service\ServiceBuilderLoader
+        factory_method: factory
+        arguments:
+            - %uam_aws_ecs%
