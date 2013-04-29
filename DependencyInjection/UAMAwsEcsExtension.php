@@ -32,7 +32,7 @@ class UAMAwsEcsExtension extends Extension
             $definition = new Definition();
 
             $definition->setClass('UAM\Aws\Ecs\EcsClient');
-            $definition->setFactoryService('uam_aws_ecs.service_builder');
+            $definition->setFactoryService('uam_aws_ecs.aws');
             $definition->setFactoryMethod('get');
             $definition->setArguments(array($id));
 

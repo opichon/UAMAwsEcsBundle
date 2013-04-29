@@ -1,0 +1,3 @@
+_uam_aws_ecs:
+    resource: "@UAMAwsEcsBundle/Controller/EcsController.php"
+    type: annotation
