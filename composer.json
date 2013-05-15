@@ -18,5 +18,10 @@
     "autoload": {
         "psr-0": { "UAM\\Bundle\\AwsEcsBundle": "" }
     },
-    "target-dir": "UAM/Bundle/AwsEcsBundle"
+    "target-dir": "UAM/Bundle/AwsEcsBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
 }

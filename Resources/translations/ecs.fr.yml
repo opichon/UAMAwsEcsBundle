@@ -1,0 +1,58 @@
+ecs:
+    search_index:
+        all:                    Toutes
+        apparel:                Vêtements
+        appliances:             Electroménager
+        arts_and_crafts:        Artisanat
+        automotive:             Automobile
+        baby:                   Bébé
+        beauty:                 Beauté
+        blended:                Blended
+        books:                  Livres
+        classical:              Musique classique
+        collectibles:           Objet de collection
+        digital_music:          Musique numérique
+        dvd:                    DVD
+        electronics:            Electronique
+        foreign_books:          Livres étrangers
+        grocery:                Epicerie
+        health_personal_care:   Santé soins du corps
+        hobbies:                Hobbies
+        home:                   Maison
+        home_garden:            Maison et jardin
+        home_improvement:       Bricolage
+        industrial:             Industrie
+        jewelry:                Bijoux
+        kindle_store:           KindleStore
+        kitchen:                Cuisine
+        lawn_garden:            Jardin
+        lighting:               Eclairage
+        magazines:              Magazines
+        marketplace:            Place de marché
+        merchants:              Merchants
+        misc:                   Divers
+        miscellaneous:          Divers
+        mobile_apps:            Applications pour téléphone portable
+        mp3_downloads:          MP3s
+        music:                  Musique
+        musical_instruments:    Instruments de musique
+        music_tracks:           MusicTracks
+        office_products:        Fournitures de bureau
+        outdoor_living:         Extérieur
+        outlet:                 Outlet
+        pc_hardware:            Matériel informatique
+        pet_supplies:           Fournitures pour animaux
+        photo:                  Photo
+        shoes:                  Chaussures
+        software:               Logiciels
+        software_video_games:   Jeuxvideo logiciels
+        sporting_goods:         Fournitures de sport
+        tools:                  Outils
+        toys:                   Jouets
+        unbox_video:            Video
+        vhs:                    VHS
+        video:                  Video
+        video_games:            Jeux video
+        watches:                Montres
+        wireless:               Wi-fi
+        wireless_accessories:   Accessoires wi-fi

@@ -1,0 +1,15 @@
+{% extends "UAMAwsEcsBundle::layout.html.twig" %}
+
+{% block uam_aws_ecs_content %}
+<pre>{{ client.BaseUrl }}</pre>
+<pre>{{ class }}</pre>
+<pre>{{ request }}</pre>
+<pre>{{ params|json_encode }} </pre>
+<pre>{{ service_description }} </pre>
+<pre>{{ operations|json_encode }}</pre>
+<pre>{{ results.isValid }}</pre>
+<pre>{{ results.itemCount }}</pre>
+{% for item in results.items %}
+<pre>{{ item|json_encode }}</pre>
+{% endfor %}
+{% endblock %}

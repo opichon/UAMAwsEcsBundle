@@ -1,0 +1,58 @@
+ecs:
+    search_index:
+        all:                    All
+        apparel:                Apparel
+        appliances:             Appliances
+        arts_and_crafts:        Arts and crafts
+        automotive:             Automotive
+        baby:                   Baby
+        beauty:                 Beauty
+        blended:                Blended
+        books:                  Books
+        classical:              Classical
+        collectibles:           Collectibles
+        digital_music:          DigitalMusic
+        dvd:                    DVD
+        electronics:            Electronics
+        foreign_books:          ForeignBooks
+        grocery:                Grocery
+        health_personal_care:   Health and personal care
+        hobbies:                Hobbies
+        home:                   Home
+        home_garden:            Home and garden
+        home_improvement:       Home improvement
+        industrial:             Industrial
+        jewelry:                Jewelry
+        kindle_store:           KindleStore
+        kitchen:                Kitchen
+        lawn_garden:            Lawn and garden
+        lighting:               Lighting
+        magazines:              Magazines
+        marketplace:            Marketplace
+        merchants:              Merchants
+        misc:                   Misc
+        miscellaneous:          Miscellaneous
+        mobile_apps:            Mobile apps
+        mp3_downloads:          MP3 downloads
+        music:                  Music
+        musical_instruments:    Musical instruments
+        music_tracks:           Music tracks
+        office_products:        Office products
+        outdoor_living:         Outdoor living
+        outlet:                 Outlet
+        pc_hardware:            PC hardware
+        pet_supplies:           Pet supplies
+        photo:                  Photo
+        shoes:                  Shoes
+        software:               Software
+        software_video_games:   Software video games
+        sporting_goods:         Sporting goods
+        tools:                  Tools
+        toys:                   Toys
+        unbox_video:            Unbox video
+        vhs:                    VHS
+        video:                  Video
+        video_games:            Video games
+        watches:                Watches
+        wireless:               Wireless
+        wireless_accessories:   Wireless accessories
